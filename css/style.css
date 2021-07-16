@@ -116,7 +116,7 @@ header nav a:hover{
     display: grid;  
 }
 
-.form {
+.form{
     padding: 20px;
     width: 400px;
     height: calc(100% + 30px);
@@ -129,6 +129,11 @@ header nav a:hover{
     border-style: solid;
     background-color: #6a6a6a;
     background-clip: padding-box;
+}
+
+#content {
+    font-size: 30px;
+    color: #fff;
 }
 
 .form h2{
