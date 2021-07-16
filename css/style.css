@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "proxima-nova";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova.otf");
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    padding-top: 15px;
+}
+
+header img{
+    float: left;
+    margin-left: 15px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+header nav a:hover{
+    color: black;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-section-one{
+    background-image: url('../asserts/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-section-two{
+    background-image: url('../asserts/bg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-roland{
+    display: flex;
+    justify-content: center;
+    background-image: url('../asserts/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-roland-2{
+    display: flex;
+    justify-content: center;
+    background-image: url('../asserts/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+.section-content{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../asserts/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.section-content-2{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../asserts/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    color: #fff;
+}
+
+.card-container{
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;  
+    display: grid;  
+}
+
+.form {
+    padding: 20px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    background-color: #d3d3d3;
+    border-width: 12px;
+    border-color: rgb(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: #6a6a6a;
+    background-clip: padding-box;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #fff;
+    font-size: 21px;
+}
+
+.form span{
+    color: rgb(255, 0, 0);
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 0;    
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+}
+
+.input-container input[type=text]:focus {
+    outline: 0;
+}
+
+.form .input-submit-container {
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #FF0000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 5px solid #acacac;    
+}
+
+.form input[type=submit]:hover{
+    background-color: #b1b1b1;
+}
+
+footer{
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer nav{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+footer nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+footer nav a:hover{
+    color: black;
+}
+
+footer p{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.background-footer{
+    background-image: url('../asserts/bg3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
